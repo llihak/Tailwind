@@ -11,9 +11,9 @@ import Session from './components/Session.vue';
     <Hero></Hero>
     <Overview></Overview>
     <Sessions>
-      <Session></Session>
-      <Session></Session>
-      <Session></Session>
+      <Session name="Greg Lewis" title="Everything I thought I knew was wrong" time="9 AM" />
+      <Session name="Jeff Gibby" title="Buy low and sell high is my revolutionary moto" time="11 AM" />
+      <Session name="Scott Brown" title="What I think I will do now with MetaStock" time="12 PM" />
     </Sessions>
   </Summit>
 </template>
