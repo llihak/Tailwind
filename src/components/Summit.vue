@@ -1,0 +1,17 @@
+<script>
+export default {
+
+}
+</script>
+
+<template>
+  <section class="container mx-auto max-w-5xl">
+    <div id="Summit">
+      <slot />
+    </div>
+  </section>
+</template>
+
+<style lang="">
+
+</style>
