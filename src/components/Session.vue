@@ -11,17 +11,17 @@ export default {
 
 <template>
   <div class="Session
-      block sm:grid grid-cols-4 gap-4
-      mt-12
-      border-t-gray-600
+      [ block sm:grid grid-cols-4 gap-12 ]
+      [ mt-20 p-8 ]
+      [ border-gray-600 outline-1 outline-neutral-200 outline-double ]
       shadow-lg
       ">
     <div class="media 
       flex justify-center 
       mb-2 sm:mb-0
     ">
-      <img class="w-[240px] h-[240px] mx-auto aspect-square" src="../assets/silhouette-of-a-man-36181_640.webp"
-        alt="Presenter image" width="622" height="640" loading="lazy">
+      <img class="w-[240px] h-[240px] mx-auto aspect-square" src="../assets/anonymous.webp" alt="Presenter image"
+        width="622" height="640" loading="lazy">
     </div>
     <div class="session-details col-span-3">
       <div class="meta">

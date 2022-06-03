@@ -9,7 +9,7 @@ export default {
 
 <template>
   <div class="Overview
-           block sm:grid grid-cols-3 gap-4 mt-4 sm:mt-8 
+           block sm:grid grid-cols-3 gap-4 mt-4 sm:mt-0 
            p-3  
            border-4 border-solid border-neutral-300
     ">
