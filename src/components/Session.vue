@@ -20,8 +20,7 @@ export default {
       flex justify-center 
       mb-2 sm:mb-0
     ">
-      <img class="w-[240px] h-[240px] mx-auto" src="../assets/avatar-2092113_640.webp"
-        alt="Conference Hero image for presentation purposes">
+      <img class="w-[240px] h-[240px] mx-auto" src="../assets/avatar-2092113_640.webp" alt="Presenter image">
     </div>
     <div class="session-details col-span-3">
       <div class="meta">
