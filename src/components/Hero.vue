@@ -6,7 +6,7 @@ export default {
 
 <template lang="">
   <div class="Hero">
-    <img class="mx-auto object-cover" src="https://metastock-web.azureedge.net/i/conference2020-2.jpg">
+    <img class="mx-auto object-cover" src="../assets/conference2020-2.webp">
   </div>
 </template>
 
