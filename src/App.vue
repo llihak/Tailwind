@@ -7,15 +7,16 @@ import Session from './components/Session.vue';
 </script>
 
 <template>
-  <Summit class="container mx-auto">
+  <Summit id="AppVue" class="container [ max-w-5xl mx-auto ] p-4 pt-0">
 
     <Hero></Hero>
     <Overview></Overview>
 
     <Sessions>
-      <Session name="Greg Lewis" title="Everything I thought I knew was wrong" time="9 AM" />
-      <Session name="Jeff Gibby" title="My revolutionary motto: buy low and sell high" time="11 AM" />
-      <Session name="Scott Brown" title="What I think I will do now with MetaStock" time="12 PM" />
+      <Session name="Greg Lewis" title="Everything I thought I knew was wrong" time="9 AM" short-name="glewis" />
+      <Session name="Jeff Gibby" title="My revolutionary motto: buy low and sell high" time="11 AM"
+        short-name="jgibby" />
+      <Session name="Daryl Guppy" title="What I think I will do now with MetaStock" time="12 PM" short-name="dguppy" />
     </Sessions>
 
   </Summit>

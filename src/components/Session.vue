@@ -5,7 +5,15 @@ export default {
     name: String,
     title: String,
     time: String,
+    shortName: String,
   },
+  methods: {
+    imgurl() {
+      console.log(this.shortName)
+      return `https://metastock-web.azureedge.net/i/${this.shortName}-200px.jpg`
+    }
+  },
+  // const sname = `https://metastock-web.azureedge.net/i/${shortName}-200px.jpg`
 }
 </script>
 
@@ -20,8 +28,8 @@ export default {
       flex justify-center 
       mb-2 sm:mb-0
     ">
-      <img class="w-[240px] h-[240px] mx-auto aspect-square" src="../assets/anonymous.webp" alt="Presenter image"
-        width="622" height="640" loading="lazy">
+      <img class="w-[200px] h-[300px] mx-auto aspect-square" :src="imgurl()" alt="Presenter image" width="622"
+        height="640" loading="lazy">
     </div>
     <div class="session-details col-span-3">
       <div class="meta">
