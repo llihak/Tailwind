@@ -5,7 +5,7 @@ export default {
 </script>
 
 <template>
-  <section class="container mx-auto max-w-5xl p-4">
+  <section class="max-w-5xl p-4">
     <div id="Summit">
       <slot />
     </div>
